@@ -51,6 +51,7 @@
   <body>
     <form action="process.php" method="get">
       <label for="numbers">Input a list of numbers separated by comma: <input type="text" name="numbers" id="numbers" /></label>
+      <label for="threshold">Threshold: <input type="number" name="threshold" id="threshold"></label>
       <button type="submit">Submit</button>
     </form>
   </body>
